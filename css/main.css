@@ -48,11 +48,11 @@ footer {
 @media only screen and (min-width: 60em) {
 
   .logo {
-  text-align: left;
+    text-align: left;
   }
 
   .nav {
-  text-align: right;
+    text-align: right;
   }
 
 }
