@@ -1,5 +1,5 @@
 html {
-  font-family: Noto Sans, sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .skip-links a {
@@ -12,7 +12,7 @@ html {
 }
 
 .main {
-  font-family: Noto Sans Japanese, sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 li a {
@@ -43,4 +43,16 @@ i {
 
 footer {
   color: #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+  text-align: left;
+  }
+
+  .nav {
+  text-align: right;
+  }
+
 }
