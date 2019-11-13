@@ -16,16 +16,34 @@ html {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-.btn-ghost {
-  border-width: .1em;
-  border-color: #8bc9d9;
+li a {
   color: #005e76;
+  list-style-type: none;
+}
+
+li a:hover {
+  color: #8bc9d9;
+}
+
+li {
+  border-bottom-width: thin;
+  border-bottom-color: #8bc9d9;
+}
+
+.btn-ghost {
+  color: #005e76;
+  border-color: #8bc9d9;
+  border-width: 1.5px;
 }
 
 .btn-ghost:hover {
   background-color: #8bc9d9;
-  border-color: #005e76;
-  color: #000;
+  color: #005e76;
+  border-color: #0084a6;
+}
+
+footer {
+  color: #e2e2e2;
 }
 
 .logo {
@@ -50,11 +68,6 @@ html {
 .intro-box {
   border-bottom: .1em solid #e2e2e2;
   border-top: .1em solid #e2e2e2;
-}
-
-footer {
-  border-top: .1em solid #e2e2e2;
-  color: #666;
 }
 
 @media only screen and (min-width: 60em) {
