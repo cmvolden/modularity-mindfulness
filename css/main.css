@@ -12,7 +12,7 @@ html {
   top: 0;
 }
 
-.main {
+.font-jp {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
@@ -44,6 +44,30 @@ li {
 
 footer {
   color: #e2e2e2;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  border-bottom: .1em solid #8bc9d9;
+  text-decoration: none;
+  color: #005e76;
+}
+
+.nav a:hover {
+  border-color: #0084a6;
+  color: #005e76;
+}
+
+.intro-box {
+  border-bottom: .1em solid #e2e2e2;
+  border-top: .1em solid #e2e2e2;
 }
 
 @media only screen and (min-width: 60em) {
